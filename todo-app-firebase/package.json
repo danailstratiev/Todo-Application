@@ -1,0 +1,22 @@
+{
+  "name": "todoapplicaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/stratyd/todoapplicaton.git"
+  },
+  "author": "Danail Stratiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/stratyd/todoapplicaton/issues"
+  },
+  "homepage": "https://gitlab.com/stratyd/todoapplicaton#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0"
+  }
+}

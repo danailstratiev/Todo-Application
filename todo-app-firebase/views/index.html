@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>Customer Details Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1 class="site-title">
+                ToDo Application
+            </h1>
+            <nav>
+                <ul style="list-style:none;">
+                    <li><button id="homeLink" onclick="homeLink_Click()">Home</button></li>
+                    <li><button id="usersLink" onclick="usersLink_Click()">Manage Users</button></li>
+                    <li><button id="todoListLink" onclick="todoListsLink_Click()">My ToDoLists</button></li>
+                    <li><button id="loginLink" onclick="loginLink_Click()">Login</button></li>
+                    <li><button id="logoutLink" onclick="logoutLink_Click()">Logout</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            
+            <div id="content"></div>
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <ul>                   
+                  <li>Username:</li>
+                  <li id="usernameModal"></li>
+                  <li>Firstname:</li>
+                  <li id="firstnameModal"></li>
+                  <li>Lastname:</li>
+                  <li id="lastnameModal"></li>
+                  <li>Is Admin:</li>
+                  <li id="isAdminModal"></li>
+                  <li>Date of creation:</li>
+                  <li id="creationDateModal"></li>
+                  <li>Date of last change:</li>
+                  <li id="dateOfchangeModal"></li>
+              </ul>
+            </div>
+        
+    </div>
+
+    
+
+    <script src="../scripts/services.js"></script>
+    <script src="../scripts/repositories/userRepo.js"></script>
+    <script src="../scripts/repositories/todoListRepo.js"></script>
+    <script src="../scripts/repositories/taskRepo.js"></script>
+    <script src="../scripts/entities/task.js"></script>
+    <script src="../scripts/views/homePage.js"></script>
+    <script src="../scripts/views/loginPage.js"></script>
+    <script src="../scripts/events.js"></script>
+    <script src="../scripts/todoListEvents.js"></script>
+    <script src="../scripts/taskEvents.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/entities/appuser.js"></script>
+    <script src="../scripts/views/users/usersPage.js"></script>
+    <script src="../scripts/views/users/usersEditPage.js"></script>
+    <script src="../scripts/views/users/usersCreatePage.js"></script>
+    <script src="../scripts/views/todolists/todoListCreatePage.js"></script>
+    <script src="../scripts/views/todolists/todoListPage.js"></script>
+    <script src="../scripts/views/todolists/todoListEditPage.js"></script>
+    <script src="../scripts/views/todolists/shareListUsersPage.js"></script>
+    <script src="../scripts/views/tasks/tasksPage.js"></script>
+    <script src="../scripts/views/tasks/taskCreatePage.js"></script>
+    <script src="../scripts/views/tasks/taskEditPage.js"></script>
+    <script src="../scripts/views/tasks/assignTaskPage.js"></script>
+    <script src="../scripts/views/tasks/assignmentTaskEditPage.js"></script>
+    <script src="../scripts/views/tasks/taskViewPage.js"></script>
+    <script src="../scripts/views/tasks/assignmentViewPage.js"></script>
+    <script src="../scripts/entities/toDoList.js"></script>
+    <script src="../scripts/entities/sharedList.js"></script>
+    <script src="../scripts/entities/assignmentTask.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,582 @@
+/* ------------ */
+*, *::before, *::after {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+    /* background-color: #D12024; */
+}
+
+body {
+    margin: 1rem;
+}
+
+.container{
+    max-width:1170px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    min-height: 100vh;
+}
+
+.site-header {
+    background: blue;
+    color: #fff;
+    display: flex;
+    position: relative;
+    overflow:hidden;
+}
+
+.site-header h1 {
+    padding: 0 1rem;
+}
+
+.site-header button {
+    /* color: #fff; */
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.site-header nav {
+    margin-left: auto;
+}
+
+.site-header nav ul {
+    display: flex;
+    align-items: center;    
+    padding: 0 1em;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    display: flex;
+
+}
+
+
+.site-header nav button:hover {
+    
+    background: Dodgerblue;
+}
+
+
+button:hover{
+    background:rgb(255, 51, 255);
+}
+
+/* ------------- */
+
+
+fieldset{
+    overflow: hidden;
+}
+
+
+.legendary {
+    padding-top: 0;
+}
+
+.legendary{
+    display: inline-block;
+    border: 2px solid #999;
+    padding: 0 0.5rem;
+    margin-left: -0.4rem;
+}
+
+.main-content{
+    background: rgb(179, 209, 255);
+}
+
+.main-content h3{
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+.main-content nav{
+    background: rgb(179, 209, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.main-content ul{
+    display:  flex;
+}
+
+.main-content ul li{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main-content li{
+    width: 20%;
+    height: auto;
+}
+
+.main-content button{
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+    /* background-color: DodgerBlue;
+    color: white;
+    background:rgb(255, 51, 255); */
+}
+
+
+.functional-button{
+    width: 30%;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+
+/* form{
+    width: 40%;
+    background-color: #F9F9F9;
+} */
+
+.loginForm, .user-editpage{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.login-data div{
+    margin: 1rem;
+    align-items: center;
+}
+
+.loginForm p :hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.loginForm input, .user-editpage input{
+    padding: 0.5rem;
+
+}
+
+.loginForm p{
+    width: 65%;
+    height: 50%;
+}
+
+#username, #password, #firstName, #lastName{
+    width: 60%;
+}
+
+.user-editpage{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.editBtn input, .user-createpage input, .todoCreate input,
+.todoCreate button{
+    padding: 0.5rem;
+    width: 30%;    
+}
+
+.editBtn p :hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+
+.user-createpage{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.todoCreate{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* ------------- */
+form label{
+    display: block;
+
+    font-weight: bold;
+}
+form input[type="password"]{
+    border: none;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    border: none;
+    padding: 0.5rem ;
+}
+form input[type="password"]:focus{
+    border: none;
+}
+
+
+
+form input {
+    width: 65%;
+    height: 50%;
+}
+    
+fieldset{
+    display: block;
+    padding: 2rem;
+    overflow: hidden;
+    border-radius: 0.3rem;
+}
+
+fieldset p{
+    padding: 0.2rem;
+}
+
+fieldset button {
+    width: 3rem;
+}
+div{
+    padding-bottom: 0.3rem;
+}
+
+
+
+.login{
+    padding-top: 0.5rem;
+}
+
+.loginBtn input{
+    padding: 0.5rem;
+    width: 60%;
+    margin-left: 2rem;
+}
+
+/* ------------- */
+
+
+.usersTable{
+    padding-top: 1rem;
+    
+}
+
+.usersTable nav{
+    margin-bottom: 1rem;
+}
+
+.usersTable nav ul li{
+    font-size: 1.3rem;
+}
+
+.usersTable ul{
+    display: flex;
+}
+
+.usersTable ul li{
+    margin: 0 auto;
+    padding: 1rem 0 0 0;
+
+}
+
+.todoList-navigator nav ul{
+    display: flex;
+}
+
+.todoList-navigator nav ul li{
+    margin: 0 auto;
+}
+
+.todoList-elements ul,
+.sharedList-elements ul{
+    display: flex;
+}
+
+.todoList-elements ul li,
+.sharedList-elements ul li{
+    margin: 0 auto;
+}
+
+.task-navigator nav ul,
+.shareusers-nav nav ul{
+    display: flex;
+}
+
+.task-navigator nav ul li,
+.shareusers-nav nav ul li{
+    margin: 0 auto;
+}
+
+.task-elements ul,
+.usersToShare ul,
+.assignedtask-elements ul{
+    display: flex;
+}
+
+.task-elements ul li,
+.usersToShare ul li,
+.assignedtask-elements ul li{
+    margin: 0 auto;
+}
+
+.taskCreator{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.taskCreator button{
+    width: 30%;
+}
+
+.taskCreator input{
+    height: 30px;
+}
+
+.taskCreator textarea{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.taskCreator button{
+    margin-top: 1rem;
+
+}
+
+/* ------toggler properties------ */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+/* ------toggler properties------ */
+
+#assignTaskUserButton{
+    padding: 1rem;
+    width: 40%;
+}
+
+.delete-hint{
+    position: relative;
+}
+.hint-text {
+    visibility: hidden;
+    text-align: center;
+    bottom: 80%;
+    left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+.delete-hint:hover .hint-text{
+    visibility: visible;
+    opacity: 1;
+    background: red;
+    width: 60%;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+ 
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal ul{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      width: 50%;
+  }
+  .modal ul li{
+      width: 50%;
+      /* border: navy solid 1px; */
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1.5rem;
+  }
+
+.viewButton button{
+    width: 80%;
+    /* margin-right: 0.5rem; */
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+.taskview-content ul, .assignmentview-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.taskview-content ul li, assignmentview-content ul li{
+    width: 50%;
+    /* border: navy solid 1px; */
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.assignmentview-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.assignmentview-content ul li{
+    width: 50%;
+    /* border: navy solid 1px; */
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.assigned-users{
+    margin-top: 2rem;
+    align-items: center;
+}
+.assigned-users ::before{
+    padding: 0;
+}
+.assigned-users ul li{
+    width: 35%;
+    justify-content: center;
+}
+.assigned-users ul li button{
+    width: 65%;
+    padding: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.error{
+    color: red;
+}
+
+#share-list{
+    margin-left: 2rem;
+}
+
+#create-list-button{
+    
+    padding-bottom: 1rem;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
