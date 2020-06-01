@@ -1,0 +1,101 @@
+/* ------------ */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.site-header {
+    background: #3B89E2;
+    color: #fff;
+    display: flex;    
+}
+
+.site-header h1 {
+    padding: 0 1rem;
+}
+
+.site-header button {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+    color: white;
+}
+
+.site-header nav ul {
+    display: flex;
+    align-items: center;    
+    padding: 0 1em;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    display: flex;
+}
+
+.site-header nav button:hover {
+    text-decoration: underline;    
+    background: Dodgerblue;
+}
+
+.site-header nav button{
+    background: none;
+    border: none;
+}
+
+.site-header img{
+    width: 6%;
+}
+
+/* button:hover{
+    background:rgb(255, 51, 255);
+} */
+
+/* ------------- */
+
+
+fieldset{
+    overflow: hidden;
+}
+
+.toggle-menu-btn {
+    display: none;
+    cursor: pointer;
+  }
+
+
+button{
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.logo{
+    background: url('../images/listLogo.png') no-repeat center;
+    width: 3rem;
+    margin-left: 2rem;
+}

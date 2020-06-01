@@ -1,0 +1,70 @@
+/* ------------ */
+/* *, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+} */
+
+
+/* ---------------- */
+.table-holder{
+    width: 80%;
+    margin: 2rem auto;
+    
+}
+
+
+.table-holder table{
+    background: white;
+    margin-top: 1rem;
+}
+
+.table-holder table td{
+    width: 25%;
+}
+
+.table-holder table tr{
+    border: solid 1px black;
+}
+
+.table-buttons{
+    display: flex;
+}
+
+.table-buttons a{
+    padding: 0 0.5rem;
+}
+
+.todoList-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoList-heading h2{
+    float: left;
+}
+.todoList-heading button{
+    width: 15%;
+    background: #3B89E2;
+    color: white;
+}
+

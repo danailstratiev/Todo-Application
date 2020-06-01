@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todoTable.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>UsersTable</title>
+</head>
+<body>
+    <div class="container">
+        <div class="table-holder">
+            <header class="table-heading">
+                <h2>Users Table</h2>
+                <button>+ Add User</button>
+            </header>
+            <table cellpadding="10" class="user-table"> 
+                <thead>
+                    <tr>
+                        <td>First name</td>
+                        <td>Last name</td>
+                        <td>Username</td>
+                        <td>Date of creation</td>
+                        <td>Date of last edit</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lego</td>
+                        <td>123456</td>
+                        <td>123456</td>
+                        <td>123456</td>
+                        <td>123456</td>
+                        <td class="table-buttons">
+                            <a class="action-button todo-edit-button" title="Edit user"><i class="fas fa-pencil-alt"></i></a>
+                            <a class="action-button todo-delete-button" title="Delete user"><i class="fas fa-trash"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

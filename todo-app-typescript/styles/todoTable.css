@@ -1,0 +1,155 @@
+/* ------------ */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* ---------------- */
+.table-holder{
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+
+
+
+.table-holder table{
+    background: white;
+    margin-top: 1rem;
+}
+
+.list-table td{
+    max-width: 25%;
+}
+
+
+.list-table{
+    min-width: 100%;
+}
+
+
+.user-table td{    
+    max-width: 22%;
+    width: 19%;
+ }
+
+.table-holder table tr{
+    border: solid 1px black;
+}
+
+.table-buttons{
+    display: flex;
+}
+
+.table-buttons a{
+    padding: 0 0.5rem;
+}
+
+.table-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-heading h2{
+    float: left;
+}
+.table-heading button{
+    width: 15%;
+    background: #3B89E2;
+    color: white;
+}
+
+table{
+    border: solid 1px #C6C6C6;
+    border-collapse: collapse;
+
+}
+
+
+table thead{
+    background: #C6C6C6;
+}
+
+.user-delete-button,
+.todo-delete-button{
+    background: url("../images/trash.png") no-repeat center;
+    /* width: 5%; */
+}
+
+
+.user-delete-button:hover,
+.todo-delete-button:hover{
+    background: url("../images/redTrash.png") no-repeat center;
+}
+
+.user-edit-button,
+.todo-edit-button{
+    background: url("../images/pen.png") no-repeat center;
+    /* width: 5%; */
+}
+
+.user-edit-button:hover,
+.todo-edit-button:hover{
+    background: url("../images/bluePen.png") no-repeat center;
+}
+
+.todo-tasks-button{
+    background: url("../images/clipboard.png") no-repeat center;
+    /* width: 5%; */
+}
+
+.todo-tasks-button:hover{
+    background: url("../images/blueClipboard.png") no-repeat center;
+}
+
+.titleTd{
+    width: 15%;
+}
+
+.dateTd{
+    width: 15%;
+}
+
+.assigner,
+.shareListTd:hover{
+    color: blue;
+}
+
+.todo-delete-button,
+.todo-edit-button,
+.todo-tasks-button,
+.shareListTd{
+    width: 7%;
+}
+
+#list-editor{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#list-deleter{
+    width: 1.5rem;
+    height: 1.5rem;
+}

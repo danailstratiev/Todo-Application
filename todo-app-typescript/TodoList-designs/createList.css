@@ -1,0 +1,72 @@
+/* ------------ */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* ---------------- */
+
+.list-creator{
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.list-data{
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.list-data form{
+    width: 40%;
+}
+.list-input{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.list-input input{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.list-input input :hover{
+    border-color: #3B89E2;
+}
+
+.list-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.list-btn button{
+    padding: 1rem;
+    background: #3B89E2;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}

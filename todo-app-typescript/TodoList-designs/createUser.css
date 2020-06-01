@@ -1,0 +1,74 @@
+/* ------------ */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* ---------------- */
+.wrapper{
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.create-user-section{
+    background: white;
+}
+
+.create-form-data{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    margin: 1rem auto;
+}
+
+.create-form-data div{
+    width: 46%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.create-form-data input{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.create-form-data input :hover{
+    border-color: #3B89E2;
+}
+
+.create-user-btn{
+    display: flex;
+    padding: 1rem;
+    width: 40%;
+    margin: 1rem auto;
+    justify-content: center;
+}
+
+.create-user-btn button{
+    padding: 1rem 0;
+    width: 50%;
+    margin: 0 auto;
+    background: #3B89E2;
+    color: white;
+}

@@ -1,0 +1,132 @@
+/* ------------ */
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: #F2F5F7;
+}
+
+.container{
+    max-width:1280px;
+    margin: 0 auto
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* ---------------- */
+
+.task-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.task-wrapper, .task-creator{
+    width: 48%;
+}
+
+.task-wrapper header, .task-creator header{
+   margin: 1.5rem 0;
+}
+
+.list-properties{
+    background: white;
+    padding: 1rem;
+}
+
+.list-properties header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-dates{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.task-form form{
+    margin: 0 auto;
+    background: white;
+}
+
+.task-input section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+.task-checker div{
+    display: flex;
+}
+
+.task-checker div p{
+    padding: 0 1rem 0 0;
+}
+
+.task-heading input{
+    padding: 0.5rem;
+}
+
+
+.task-create-btn button{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #3B89E2;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.task-viewer-nav{
+    background: #C6C6C6;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    overflow:hidden
+
+}
+
+.task-viewer-nav a{
+    float: right;
+    padding-right: 0.5rem;
+}
+
+.task-viewer-nav p{
+    padding: 1rem 0;
+}
+.task-selector{
+    padding-top: 1.5rem;
+    background: white;
+    border: solid 1px  #C6C6C6;
+}
+
+.task-props{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.task-props h4{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.task-selector p{
+    margin: 0 auto;
+    width: 90%;
+}
