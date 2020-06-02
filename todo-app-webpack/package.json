@@ -1,0 +1,24 @@
+{
+  "name": "todoapplicaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/stratyd/todoapplicaton.git"
+  },
+  "author": "Danail Stratiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/stratyd/todoapplicaton/issues"
+  },
+  "homepage": "https://gitlab.com/stratyd/todoapplicaton#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}
